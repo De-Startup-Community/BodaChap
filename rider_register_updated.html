@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pages / Login - NiceAdmin Bootstrap Template</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.1.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+
+      <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
+        <div class="container">
+            <div class="row">
+
+                   <div class="col-lg-12">
+                    <div class="card">
+                        <div class="row">
+
+                            <div class="col-7">
+                                
+                                
+                                <div class="card-body">
+                                    
+                                    <h5 class="card-title">New User ?. Please Register</h5>
+                      
+                                    <!-- Default Tabs -->
+                                    <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                                      <li class="nav-item flex-fill" role="presentation">
+                                        <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-justified" type="button" role="tab" aria-controls="home" aria-selected="true">Passenger</button>
+                                      </li>
+                                      <li class="nav-item flex-fill" role="presentation">
+                                        <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-justified" type="button" role="tab" aria-controls="profile" aria-selected="false">Rider</button>
+                                      </li>
+                                      <li class="nav-item flex-fill" role="presentation">
+                                        <button class="nav-link w-100" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-justified" type="button" role="tab" aria-controls="contact" aria-selected="false">Admin</button>
+                                      </li>
+                                    </ul>
+                                    <div class="tab-content pt-2" id="myTabjustifiedContent">
+                                        <div class="tab-pane fade show active" id="home-justified" role="tabpanel" aria-labelledby="home-tab">
+                                            <!-- passeneger registration-->
+                                            <form class="row g-3">
+                                                <div class="col-md-12">
+                                                    <label for="inputName5" class="form-label">Your Name</label>
+                                                    <input type="text" class="form-control" id="inputName5">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputEmail5" class="form-label">Username:</label>
+                                                    <input type="email" class="form-control" id="inputEmail5">
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputPassword5" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="inputPassword5">
+                                                </div>
+                                                <!-- <div class="col-4">
+                                                    <label for="inputAddress5" class="form-label">Date Of Birth</label>
+                                                    <input type="date" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                                                </div> -->
+                                                <div class="col-4">
+                                                    <label for="inputAddress5" class="form-label">Phone Number</label>
+                                                    <input type="text" class="form-control" id="inputAddres5s" placeholder="+255XXXXXXXXX">
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="inputAddress5" class="form-label">Gender</label>
+                                                    <select id="inputState" class="form-select">
+                                                        <option selected>Choose...</option>
+                                                        <option>Male</option>
+                                                        <option>Female</option>
+                                                        
+                                                    </select>
+                                                </div>
+                                                
+                                                <!-- <div class="col-4">
+                                                    <label for="inputAddress2" class="form-label">Vehicle Plate Number</label>
+                                                    <input type="text" class="form-control" id="inputAddress2" placeholder="AB 987 TZ">
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="inputAddress5" class="form-label">Model</label>
+                                                    <input type="text" class="form-control" id="inputAddres5s" placeholder="XXXX">
+                                                </div> -->
+                                                <div class="col-4">
+                                                    <label for="inputAddress5" class="form-label">Carry Type</label>
+                                                    <select id="inputState" class="form-select">
+                                                        <option selected>Choose ...</option>
+                                                        <option>Passenger</option>
+                                                        <option>Cargo/Packages</option>
+                                                        <option>All</option>
+                                                        
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="inputCity" class="form-label">Location</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <label for="inputState" class="form-label">Region</label>
+                                                    <select id="inputState" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>Urban West</option>
+                                                    <option>South Unguja</option>
+                                                    <option>North Unguja</option>
+                                                    <option>South Pemba</option>
+                                                    <option>Nprth Pemba</option>
+                                                    </select>
+                                                </div>
+                                                
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-primary">Register</button>
+                                                
+                                                </div>
+                                                </form>
+                                            <!-- passenger registration-->
+                                        </div>
+                                        <div class="tab-pane fade" id="profile-justified" role="tabpanel" aria-labelledby="profile-tab">
+                                            <!-- rider registration-->
+                                               
+                                            <form class="row g-3">
+                                            <div class="col-md-12">
+                                                <label for="inputName5" class="form-label">Your Name</label>
+                                                <input type="text" class="form-control" id="inputName5">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputEmail5" class="form-label">BodaBoda ID</label>
+                                                <input type="email" class="form-control" id="inputEmail5">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword5" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword5">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="inputAddress5" class="form-label">Date Of Birth</label>
+                                                <input type="date" class="form-control" id="inputAddres5s" placeholder="1234 Main St">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="inputAddress5" class="form-label">Phone Number</label>
+                                                <input type="text" class="form-control" id="inputAddres5s" placeholder="+255XXXXXXXXX">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="inputAddress5" class="form-label">Gender</label>
+                                                <select id="inputState" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                    
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="col-4">
+                                                <label for="inputAddress2" class="form-label">Vehicle Plate Number</label>
+                                                <input type="text" class="form-control" id="inputAddress2" placeholder="AB 987 TZ">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="inputAddress5" class="form-label">Model</label>
+                                                <input type="text" class="form-control" id="inputAddres5s" placeholder="XXXX">
+                                            </div>
+                                            <div class="col-4">
+                                                <label for="inputAddress5" class="form-label">Carry Type</label>
+                                                <select id="inputState" class="form-select">
+                                                    <option selected>Choose ...</option>
+                                                    <option>Passenger</option>
+                                                    <option>Cargo/Packages</option>
+                                                    <option>All</option>
+                                                    
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputCity" class="form-label">Main Station</label>
+                                                <input type="text" class="form-control" id="inputCity">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label for="inputState" class="form-label">Region</label>
+                                                <select id="inputState" class="form-select">
+                                                <option selected>Choose...</option>
+                                                <option>Urban West</option>
+                                                <option>South Unguja</option>
+                                                <option>North Unguja</option>
+                                                <option>South Pemba</option>
+                                                <option>Nprth Pemba</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="text-center">
+                                                <button type="submit" class="btn btn-primary">Register</button>
+                                            
+                                            </div>
+                                            </form>
+
+                                            <!--end of rider registration-->
+                                        </div>
+                                        <div class="tab-pane fade" id="contact-justified" role="tabpanel" aria-labelledby="contact-tab">
+                                           <center> Contact admin to get Admin previlegdes</center>
+                                        </div>
+                                    </div><!-- End Default Tabs -->
+                      
+                                  </div>
+
+                            </div>
+
+                            <div class="col-5">
+                                <img src="assets/img/product-5.jpg" width="100%" height="100%">
+                            </div>
+
+                        </div>
+
+                      </div>
+
+
+                    </div>
+                    
+
+
+
+
+
+                
+            </div>
+
+        </div>
+
+      </section>
+
+    </div>
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
