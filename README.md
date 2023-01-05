@@ -13,8 +13,8 @@ These project is for educational purpose. It is done in collaboration of 4 stude
 
 Links:
 
-  +https://getbootstrap.com/
-  +https://www.suza.ac.tz/
+  + https://getbootstrap.com/
+  + https://www.suza.ac.tz/
 
 ___
 
