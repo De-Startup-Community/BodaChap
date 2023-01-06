@@ -3,11 +3,11 @@ Is web application for contacting nearby Bodaboda in Zanzibar.
 
 These project is for educational purpose. It is done in collaboration of 4 students from State Univerisity of Zanzibar.
 
-## Admin Dashboard : :admin:
+## Admin Dashboard 
 
 ---
 
-### ERD for BodaChap  :Flower:
+### ERD for BodaChap  
 
 ***
 
